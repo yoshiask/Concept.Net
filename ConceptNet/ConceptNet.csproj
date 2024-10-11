@@ -6,6 +6,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <Title>Concept.Net</Title>
+        <Version>0.1.0</Version>
+        <PackageVersion>$(Version)-beta</PackageVersion>
+        <Description>Consume ConceptNet 5 data from multiple sources.</Description>
+    </PropertyGroup>
+
     <ItemGroup>
         <PackageReference Include="Flurl.Http" Version="4.0.2" />
         <PackageReference Include="PolySharp" Version="1.14.1">
