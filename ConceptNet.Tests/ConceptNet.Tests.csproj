@@ -25,6 +25,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\ConceptNet.Rest\ConceptNet.Rest.csproj" />
         <ProjectReference Include="..\ConceptNet\ConceptNet.csproj" />
     </ItemGroup>
 

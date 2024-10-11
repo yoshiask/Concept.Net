@@ -1,5 +1,4 @@
 ﻿using ConceptNet.Models;
-using System.Linq;
 using Xunit.Abstractions;
 
 namespace ConceptNet.Tests;

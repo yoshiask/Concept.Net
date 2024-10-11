@@ -35,7 +35,7 @@ public class ConceptNetError
 
 public class ConceptNetEdge : ConceptNetEntity
 {
-    public override ConceptNetEntityType EntityType => ConceptNetEntityType.Edge;
+    public override ConceptNetEntityType EntityType => ConceptNetEntityType.Assertion;
     public string Dataset { get; set; }
     public string License { get; set; }
     public object Start { get; set; }
